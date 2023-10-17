@@ -1,0 +1,38 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+}
+h2{
+
+    padding: 10px 0;
+}
+.abt-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vh;
+}
+.bio>h1,.contact>h1,.about-container>h1{
+    color: blue;
+}
+.bio,.contact{
+    background-color: white;
+    padding: 5vh;
+    border-radius: 20px;
+
+}
+td{
+    background-color: white;
+}
+th{
+    background-color: rgb(210, 208, 208);
+}
+
