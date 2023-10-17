@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.cff1880e.css",
+    "main.js": "/my-portfolio/static/js/main.7ff60383.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/passportsizephoto (4).jpg": "/my-portfolio/static/media/passportsizephoto (4).4a82f8979da20cf75ef9.jpg",
+    "static/media/reactjs.jpeg": "/my-portfolio/static/media/reactjs.5c234f063c189fd2cc2a.jpeg",
+    "static/media/javascript.png": "/my-portfolio/static/media/javascript.e79a09600420bc6a1189.png",
+    "static/media/git.jpeg": "/my-portfolio/static/media/git.73d28395467aa37239d1.jpeg",
+    "static/media/backgroungimage.jpeg": "/my-portfolio/static/media/backgroungimage.e0e43bee91f7ecbdb311.jpeg",
+    "static/media/react-redux.png": "/my-portfolio/static/media/react-redux.6b63d816d768c0358cb8.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.cff1880e.css.map": "/my-portfolio/static/css/main.cff1880e.css.map",
+    "main.7ff60383.js.map": "/my-portfolio/static/js/main.7ff60383.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cff1880e.css",
+    "static/js/main.7ff60383.js"
+  ]
+}
