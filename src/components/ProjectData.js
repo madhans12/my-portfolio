@@ -80,7 +80,7 @@ const ProjectComp = ({ project }) => {
           GitHub
         </a>{" "}
         <a href={project.hostedlink} className="host-link">
-          DEMO
+          OPEN
         </a>
       </div>
     </div>

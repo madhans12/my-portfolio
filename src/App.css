@@ -17,6 +17,11 @@ body{
 
 
 }
+.profile-container p{
+  padding: 0 30vh;
+  text-align-last: center;
+}
+
 .profile-pic{
   width: 200px;
   border-radius: 50%;
@@ -57,12 +62,12 @@ z-index: 1;
 .link{
   color: rgb(236, 232, 232);
   text-decoration: none;
-  background-color: skyblue;
+  background-color: rgb(16, 160, 217);
   padding: 5px 10px;
   border-radius: 15px;
 }
 .link:hover{
-  background-color: rgb(16, 160, 217);
+  background-color: rgb(4, 73, 101);
 }
 .skil-container{
   display: flex;
@@ -103,14 +108,16 @@ box-shadow: 10px 10px 5px gray;
   background-color: white;
   border-radius: 20px;
   box-shadow: 10px 10px 5px black;
+  background: linear-gradient(rgb(232, 239, 14), rgb(245, 245, 245)60%);
+
 }
 .project-link{
   text-decoration: none;
   display: flex;
   align-items:center;
   justify-content: space-between;
-background-color: gray;
-height: 20vh;
+background-color: whitesmoke;
+height: 25vh;
 width: 100%;
 border-radius: 0 0 20px 20px;
 padding: 0 5px;
@@ -119,7 +126,7 @@ padding: 0 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 75vh;
   width: 100%;
 }
 .project-link>a{
@@ -142,4 +149,37 @@ padding: 0 5px;
   flex-wrap: wrap;
   padding: 20px;
   gap: 20px;
+}
+.github{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+.linkedin{
+  color: white;
+  background-color: rgb(19, 56, 180);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+.profile-link{
+  display: flex;
+  gap: 20vh;
+  padding: 30px;
+  padding-bottom: 20px;
+  border-bottom:3px solid black;
+}
+.naukri{
+  color: white;
+  background-color: rgb(4, 99, 85);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+.resume{
+  color:white;
+  background-color:rgb(242, 59, 66);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
 }
