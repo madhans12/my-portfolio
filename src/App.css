@@ -110,7 +110,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background-color: white; */
   border-radius: 20px;
   box-shadow: 10px 10px 5px black;
   background: linear-gradient(rgb(232, 239, 14), rgb(245, 245, 245) 60%);
@@ -157,7 +156,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /* min-height: 80vh; */
   gap: 20px;
   padding: 20px;
   margin-top: 30px;
