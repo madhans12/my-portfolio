@@ -1,9 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import profile from "./passportsizephoto (4).jpg";
 
 const Profile = () => {
+  const [hover, setHover] = useState(true);
+
   return (
     <div className="profile-container">
+      {hover ? <em className="hover">Hover Me</em> : <em>I'm</em>}
+
+      <div
+        className="madhan"
+        onMouseOver={() => {
+          setHover(false);
+        }}
+        onMouseOut={() => {
+          setHover(true);
+        }}
+      >
+        <div className="m">
+          <div className="m1"></div>
+          <div className="m2"></div>
+          <div className="m3"></div>
+
+          <div className="m1"></div>
+        </div>
+        <div className="a">
+          <div className="a1"></div>
+          <div className="a2"></div>
+          <div className="a3"></div>
+        </div>
+        <div className="d">
+          <div className="d1"></div>
+        </div>
+        <div className="h">
+          <div className="h1"></div>
+          <div className="h2"></div>
+          <div className="h1"></div>
+        </div>
+        <div className="a">
+          <div className="a1"></div>
+          <div className="a2"></div>
+          <div className="a3"></div>
+        </div>
+        <div className="n">
+          <div className="n1"></div>
+          <div className="n2"></div>
+          <div className="n1"></div>
+        </div>
+      </div>
       <div className="profile-container1">
         <h1>
           Hai👋,
@@ -13,7 +57,12 @@ const Profile = () => {
           FrondEnd ReactJS Developer.
         </h1>
         <div className="profile-pic">
-          <img src={profile} alt="myprofile" className="profile" />
+          <img
+            src={profile}
+            alt="myprofile"
+            className="profile"
+            title="Photo"
+          />
         </div>
       </div>
       <div className="profile-link">
@@ -46,11 +95,13 @@ const Profile = () => {
           Resume
         </a>
       </div>
-      <p>
-        I aspire to fulfill a position that requires my active knowledge and
-        skills in the field which offers goodness of career and being
-        resourceful to my profession.
-      </p>
+      <div className="profile-sum">
+        <p>
+          I aspire to fulfill a position that requires my active knowledge and
+          skills in the field which offers goodness of career and being
+          resourceful to my profession.
+        </p>
+      </div>
     </div>
   );
 };

@@ -9,7 +9,6 @@ const Navbar = () => {
         HOME
       </Link>
       <Link to="/skils" className="link">
-        {" "}
         SKILS
       </Link>
       <Link to="/projects" className="link">
